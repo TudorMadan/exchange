@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="datasetCursuri" targetNamespace="http://tempuri.org/datasetCursuri.xsd" xmlns:mstns="http://tempuri.org/datasetCursuri.xsd" xmlns="http://tempuri.org/datasetCursuri.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="datasetCursuri" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="datasetCursuri" msprop:Generator_UserDSName="datasetCursuri">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="cursuri" msprop:Generator_TableClassName="cursuriDataTable" msprop:Generator_TableVarName="tablecursuri" msprop:Generator_TablePropName="cursuri" msprop:Generator_RowDeletingName="cursuriRowDeleting" msprop:Generator_RowChangingName="cursuriRowChanging" msprop:Generator_RowEvHandlerName="cursuriRowChangeEventHandler" msprop:Generator_RowDeletedName="cursuriRowDeleted" msprop:Generator_UserTableName="cursuri" msprop:Generator_RowChangedName="cursuriRowChanged" msprop:Generator_RowEvArgName="cursuriRowChangeEvent" msprop:Generator_RowClassName="cursuriRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumeMoneda" msprop:Generator_ColumnVarNameInTable="columnNumeMoneda" msprop:Generator_ColumnPropNameInRow="NumeMoneda" msprop:Generator_ColumnPropNameInTable="NumeMonedaColumn" msprop:Generator_UserColumnName="NumeMoneda" type="xs:string" minOccurs="0" />
+              <xs:element name="PrescurtareMoneda" msprop:Generator_ColumnVarNameInTable="columnPrescurtareMoneda" msprop:Generator_ColumnPropNameInRow="PrescurtareMoneda" msprop:Generator_ColumnPropNameInTable="PrescurtareMonedaColumn" msprop:Generator_UserColumnName="PrescurtareMoneda" type="xs:string" minOccurs="0" />
+              <xs:element name="Cumparare" msprop:Generator_ColumnVarNameInTable="columnCumparare" msprop:Generator_ColumnPropNameInRow="Cumparare" msprop:Generator_ColumnPropNameInTable="CumparareColumn" msprop:Generator_UserColumnName="Cumparare" type="xs:string" minOccurs="0" />
+              <xs:element name="Vanzare" msprop:Generator_ColumnVarNameInTable="columnVanzare" msprop:Generator_ColumnPropNameInRow="Vanzare" msprop:Generator_ColumnPropNameInTable="VanzareColumn" msprop:Generator_UserColumnName="Vanzare" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
