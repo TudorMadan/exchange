@@ -1,3 +1,1 @@
-# licenta
-# exchange
 # exchange
